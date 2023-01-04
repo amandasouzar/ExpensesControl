@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './Form.css'
 
-function Form() {
+function Form(props) {
     const [NoTitle, SetNoTitle] = useState('')
     const [NoAmount, SetNoAmount] = useState('')
     const [NoDate, SetNoDate] = useState('')
@@ -27,7 +27,7 @@ function Form() {
             date: new Date(NoDate)
         }
 
-        console.log(expenseData);
+        props.onSaveExpenseData(expenseData)
 
         SetNoTitle('')
         SetNoAmount('')
