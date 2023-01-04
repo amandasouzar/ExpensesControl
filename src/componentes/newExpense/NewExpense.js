@@ -1,11 +1,10 @@
 import './NewExpense.css'
+import Form from './Form.js'
 
 function NewExpense () {
     return (
-        <div>
-            <form>
-
-            </form>
+        <div className='new-exoense'>
+            <Form></Form>
         </div>
     )
 }
