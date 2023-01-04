@@ -1,4 +1,4 @@
-import ExpenseItem from "./componentes/ExpenseItem.js";
+
 import Expenses from "./componentes/Expenses.js";
 
 function App() {
@@ -29,10 +29,9 @@ function App() {
 
   return (
     <Expenses 
-    title={expenses[0].title}
-    amount={expenses[0].amount}
-    date={expenses[0].date}
+    itens = {expenses}
     ></Expenses>
+
   );
 }
 
