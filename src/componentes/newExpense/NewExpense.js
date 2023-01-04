@@ -3,7 +3,7 @@ import Form from './Form.js'
 
 function NewExpense () {
     return (
-        <div className='new-exoense'>
+        <div className='new-expense'>
             <Form></Form>
         </div>
     )
