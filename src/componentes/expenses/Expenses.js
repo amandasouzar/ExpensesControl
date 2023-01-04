@@ -1,4 +1,4 @@
-import ExpenseCard from "./ExpenseCard.js"
+import ExpenseCard from "../UI/ExpenseCard.js"
 import ExpenseItem from "./ExpenseItem.js"
 import './Expenses.css'
 
